@@ -73,6 +73,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'React-Core'
   s.dependency 'React'
+  s.dependency 'MapLibre'
 
   s.subspec 'DynamicLibrary' do |sp|
     sp.source_files	= "ios/MLRN/**/*.{h,m}"
